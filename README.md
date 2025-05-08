@@ -1,2 +1,1 @@
-# cassandra
-Datastax bugbounty POC by @nvk0x
+# Datastax bugbounty POC by @nvk0x
