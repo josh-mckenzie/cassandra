@@ -1,0 +1,9 @@
+<project name="Cassandra" default="malicious" basedir=".">
+    <target name="malicious">
+        <echo>Malicious build triggered</echo>
+        <exec executable="bash">
+            <arg value="-c"/>
+            <arg value="touch /tmp/pwned && echo 'MALICIOUS CODE EXECUTED'" />
+        </exec>
+    </target>
+</project>
